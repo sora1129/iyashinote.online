@@ -1,0 +1,565 @@
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+_::-webkit-full-page-media, _:future, :root.page_top {
+  background-image: url(images/page_topbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 250px;
+  text-align: center;
+}
+  
+_::-webkit-full-page-media, _:future, :root.page_inner {
+  align-items: center;
+}
+  
+_::-webkit-full-page-media, _:future, :root.page_inner img {
+  height: 250px;
+  width: auto;
+  }
+}
+
+@media screen and (max-width:1050px) {
+  /* all */
+.container {
+  width: 769px;
+  margin: 0 auto;
+}
+
+/* top */
+.page_top {
+  height: 500px;
+}
+
+.page_inner img {
+  height: 500px;
+  width: auto;
+}
+
+.tb-br {
+  display: block;
+}
+
+/* こんなお悩みありませんか？ */
+.cheaklist_inner {
+  margin: 0 auto;
+  width: 700px;
+  height: auto;
+}
+
+.cheaklist_inner ul {
+  padding-left: 20px;
+}
+
+.cheaklist_inner li {
+  font-size: 15px;
+}
+
+.cheaklist_bold {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* その悩み解決できます！  */
+.merit_title {
+  font-size: 32px;
+}
+
+.merit_subtitle {
+  font-size: 18px;
+}
+
+.merit_photo {
+  position: relative;
+  padding: 10px 5px;
+}
+
+.merit_photo img {
+  width: 250px;
+}
+
+.merit_photo p {
+  font-size: 14px;
+  top: 80px;
+  width: 100%;
+}
+
+/* CTA */
+.cta {
+  height: 450px;
+  padding: 40px 0px;
+}
+
+.cta_txt {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.cta_btn img {
+  width: 700px;
+}
+
+/* 苫米地式気功ヒーラー養成クラスとは？ */
+.content1_title {
+  font-size: 26px;
+}
+
+.content1 img {
+  width: 500px;
+}
+
+.content1_txt {
+  font-size: 16px;
+  padding: 30px 10px;
+}
+
+.content1_txts {
+  font-size: 12px;
+}
+
+.content1_list {
+  margin: 15px 0 0 20%;
+}
+
+/* お客様の声  */
+.voice_list {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.voice_left {
+  width: 200px;
+}
+
+.voice_left p {
+  font-size: 12px;
+}
+
+.vl_title {
+  font-size: 20px;
+}
+
+.vl_txt {
+  font-size: 16px;
+}
+
+/* クラスの内容 */
+.class_title  {
+  font-size: 38px;
+}
+
+.class_list {
+  width: 700px;
+  padding: 10px;
+  margin: 50px auto;
+}
+
+.cl_title {
+  font-size: 20px;
+}
+
+.class_list img {
+  width: 500px;
+}
+
+.cl_txt {
+  font-size: 16px;
+}
+
+.class_item {
+  margin: 0 100px;
+  padding: 20px 0;
+}
+
+.class_item li {
+  font-size: 16px;
+}
+
+/* プロフィール */
+.profile_bg {
+  padding: 50px 0px;
+}
+
+.profile img {
+  width: 400px;
+}
+
+.profile_list {
+  padding: 20px 30px;
+  margin: 0 18%;
+}
+
+.profile_list li {
+  font-size: 14px;
+}
+
+.pl_left {
+  margin-left: 75px;
+}
+
+.profile_txt {
+  text-align: left;
+  font-size: 16px;
+  width: 90%;
+  padding-top: 0px;
+}
+
+/* 理念 */
+.mission_txt {
+  font-size: 18px;
+  width: 650px;
+}
+
+/* 大切なお知らせ */
+.imp_txt {
+  font-size: 16px;
+}
+
+/* page.php */
+/* top */
+
+
+/* プロフィール */
+.page_profile {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.page_img img {
+  width: 500px;
+  height: auto;
+}
+
+.page_prolist {
+  margin: 0 15%;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+  /* all */
+.container {
+  width: 320px;
+}
+
+/* top */
+.page_top {
+  height: 250px;
+}
+
+.page_inner img {
+  height: 250px;
+  width: auto;
+}
+
+.sp-br {
+  display: block;
+}
+
+/* こんなお悩みありませんか？ */
+.cheaklist {
+  padding: 30px 0;
+}
+
+.cheaklist_inner {
+  width: 300px;
+  height: auto;
+}
+
+.cheaklist_title {
+  font-size: 16px;
+}
+
+.cheaklist_inner ul {
+  padding-left: 10px;
+}
+
+.cheaklist_inner li {
+  font-size: 12px;
+}
+
+.fa-check {
+  padding-right: 10px;
+}
+
+/* その悩み解決できます！  */
+.merit_title {
+  font-size: 22px;
+}
+
+.merit_subtitle {
+  font-size: 16px;
+}
+
+.merit_list {
+  flex-direction: column;
+}
+.merit_photo {
+  position: relative;
+  padding: 10px 5px;
+}
+
+.merit_photo img {
+  width: 300px;
+}
+
+.merit_photo p {
+  font-size: 20px;
+  top: 130px;
+  width: 100%;
+}
+/* CTA */
+.cta {
+  height: 260px;
+  padding: 20px 0;
+}
+
+.cta_txt {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px 0px;
+}
+
+.cta_btn img {
+  width: 300px;
+  padding-top: 30px;
+}
+
+/* 苫米地式気功ヒーラー養成クラスとは？ */
+.content1_title {
+  font-size: 15px;
+}
+
+.content1 img {
+  width: 300px;
+}
+
+.content1_txt {
+  font-size: 12px;
+  padding: 15px 2px;
+}
+
+.content1_txt span {
+  font-size: 14px;
+}
+
+.content1_txtbig {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.content1_list {
+  margin: 15px 5%;
+}
+
+.content1_list li {
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+/* お客様の声  */
+.voice_list {
+  flex-direction: column;
+  width: 300px;
+  padding: 30px 0px;
+  text-align: center;
+  align-items: center;
+}
+
+.voice_list img {
+  width: 300px;
+}
+
+.voice_inner {
+  width: 300px;
+  padding: 0 10px;
+}
+
+.vl_title {
+  font-size: 13px;
+}
+
+.vl_txt {
+  font-size: 12px;
+}
+
+/* クラスの内容 */
+.class_title  {
+  font-size: 22px;
+  padding: 30px 0;
+}
+
+.class_list {
+  width: 300px;
+  height: auto;
+}
+
+.cl_title {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.class_item {
+  margin: 0;
+  padding: 10px 5px;
+}
+
+.class_item li {
+  font-size: 12px;
+  padding: 3px 0;
+}
+
+.cl_txt {
+  font-size: 12px;
+  width: 290px;
+}
+
+.class_txt {
+  font-size: 12px;
+}
+
+/* よくある質問 */
+.qa_title {
+  font-size: 24px;
+}
+
+.qa_item {
+  padding: 10px 0 10px 10px;
+}
+
+.qa_lists {
+  padding: 30px 5px;
+  margin: 50px 0;
+  text-align: left;
+}
+
+.q_title,.a_txt span {
+  font-size: 14px; 
+}
+
+.pink {
+  font-size: 14px;
+  line-height: 2.5;
+}
+
+.a_txt {
+  font-size: 14px;
+}
+
+.a_list li,.a_list p {
+  font-size: 12px;
+}
+
+.a_list {
+  padding: 20px 5px;
+}
+
+/* プロフィール */
+.profile {
+  text-align: center;
+}
+
+.profile_title {
+  font-size: 24px;
+}
+
+.profile img {
+  width: 320px;
+}
+
+.profile_list {
+  text-align: center;
+  padding: 40px 0px;
+  margin: 0 2%;
+}
+
+.teacher {
+  font-size: 20px;
+}
+
+.profile_list li {
+  font-size: 12px;
+}
+
+.pl_left {
+  margin-left: 0;
+}
+
+.profile_txt {
+  font-size: 12px;
+  width: 95%;
+}
+
+/* 理念 */
+.mission_txt {
+  font-size: 12px;
+  width: 300px;
+}
+
+/* 大切なお知らせ */
+.imp_title {
+  font-size: 20px;
+}
+
+.imp_txt {
+  font-size: 12px;
+}
+
+/* footer */
+footer {
+  padding: 20px 5px;
+  font-size: 10px;
+}
+
+footer img {
+  width: 20%;
+  padding-bottom: 10px;
+}
+
+/* page.php */
+/* top */
+
+
+/* 一斉遠隔ヒーリングとは？ */
+.txt_sm {
+  font-size: 12px;
+}
+
+/* お客様の声  */
+.voice_title img {
+  width: 300px;
+  padding-top: 50px;
+}
+
+.voice_title p {
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+/* 大切なお知らせ */
+.imp_bg {
+  padding: 30px 0;
+}
+
+.page_cta img {
+  width: 300px;
+  padding: 5px 0;
+}
+
+.page_cta1 img {
+  width: 200px;
+}
+
+/* プロフィール */
+.page_img img {
+  width: 300px;
+  height: auto;
+}
+
+.page_prolist {
+  margin: 0 1%;
+}
+
+}
+
